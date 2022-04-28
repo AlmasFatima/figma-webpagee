@@ -1,0 +1,470 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  width: 80%;
+}
+nav {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  width: 1120px;
+  height: 43px;
+  left: 160px;
+  top: 48px;
+  justify-content: space-around;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: #1f1534;
+  opacity: 0.5;
+  margin: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #458ff6;
+}
+
+.container10{
+
+  font-family: SF UI Display;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+.box16{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  
+}
+.box15{
+  border: 1px solid black;
+  width: 20%;
+  margin: 10px 20px;
+  text-align: center;
+  
+}
+.box18{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  
+}
+.box17{
+  border: 1px solid black;
+  width: 20%;
+  margin:10px 20px;
+  text-align: center;
+}
+.box20{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  
+}
+.box19{
+  border: 1px solid black;
+  width: 20%;
+  margin: 10px 20px;
+  text-align: center;
+  
+}
+.box22{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  
+}
+.box21{
+  border: 1px solid black;
+  width: 20%;
+  margin:10px 20px;
+  text-align: center;
+}
+main img{
+  width: 80%;
+  
+}
+@media (max-width:1280px) and (min-width:1024px)
+{
+  .box15{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 40px;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  .box17{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 40px;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  .box19{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 40px;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  .box21{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0 40px;
+    text-align: center;
+    padding: 10px;
+    
+  }
+
+}
+@media (max-width:1024px) and (min-width:769px)
+{
+  .box15{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 40px;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  .box17{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 40px;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  .box19{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 40px;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  .box21{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 40px;
+    text-align: center;
+    padding: 10px;
+    
+  }
+}
+.container11 {
+  margin: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+h1{
+  text-align: center;
+  margin: 40px;
+}
+.box23{
+  margin: 0 30px;
+  width: 25%;
+}
+.box24{
+  margin: 0 30px;
+  width: 25%;
+}
+.box25{
+  margin: 0 30px;
+  width: 25%;
+}
+@media(max-width:1280px) and (min-wudth:1024px)
+{
+  .box23{
+    margin: 0 30px;
+    width: 50%;
+  }
+  .box24{
+    margin: 0 30px;
+    width: 50%;
+  }
+  .box25{
+    margin: 0 30px;
+    width: 50%;
+  }
+}
+@media(max-width:1024px) and (min-wudth:769px)
+{
+  .box23{
+    margin: 0 30px;
+    width: 100%;
+  }
+  .box24{
+    margin: 0 30px;
+    width: 100%;
+  }
+  .box25{
+    margin: 0 30px;
+    width: 100%;
+  }
+}
+.container12 {
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+  align-items: center;
+
+}
+.container12 h4{
+  text-align: center;
+  margin: 20px;
+  width: 400px;
+}
+.box26{
+  margin: 0 30px;
+  width: 25%;
+}
+.box27{
+  margin: 0 30px;
+  width: 25%;
+}
+.box28{
+  margin: 0 30px;
+  width: 25%;
+}
+.container13 {
+  text-align: center;
+    margin: 10px 30px;
+    width: 80%;
+  
+  }
+
+.container13 ul{
+  list-style: none;
+  display: flex;
+}
+.container13 ul{
+  display: flex;
+}
+.container13  ul li a{
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+}
+.container14{
+  /* width: 80%; */
+  display: flex;
+}
+.container14 ul .reg {
+  list-style-image: url("https://covid.gov.pk/assets/img/covidicons/img/1.png") ;
+  margin: 0 400px;
+  text-align: center;
+  list-style-position: outside;
+
+
+}
+.container14 ul .walkin {
+  list-style-image: url("https://covid.gov.pk/assets/img/covidicons/img/ic_2.png") ;
+  margin: 0 400px;
+  text-align: center;
+
+
+}
+.container14 ul .veri {
+  list-style-image: url("https://covid.gov.pk/assets/img/covidicons/img/3.png") ;
+  margin: 0 400px;
+  text-align: center;
+
+
+}
+.container14 ul .vacc{
+  list-style-image: url("https://covid.gov.pk/assets/img/covidicons/img/4.png") ;
+  margin: 0 400px;
+  text-align: center;
+
+
+}
+.container14 ul .conf{
+  list-style-image: url("https://covid.gov.pk/assets/img/covidicons/img/5.png") ;
+  margin: 0 400px;
+  text-align: center;
+
+
+}
+
+
+.container14 ul .mon{
+  list-style-image: url("https://covid.gov.pk/assets/img/covidicons/img/6.png") ;
+  margin: 0 400px;
+  text-align: center;
+
+
+}
+.container14 ul li{
+  text-align: center;
+  
+}
+.container14 ul.veri  img{
+  width:30px
+}
+
+footer {
+  height: 600px;
+  background-color: #458ff6;
+  background-position: cover;
+  width: 100%;
+}
+.container8 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-end;
+   width: 100%;
+   padding: 40px;
+
+}
+.container8 img {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+.container9{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.container9 .end{
+    width: 300px;
+}
+.container9.end p{
+    padding: 10px 0px;
+    
+    
+}
+.list1 ul{
+    list-style:none;
+}
+.list1 ul li{
+    padding: 20px 0px;
+}
+.list2 ul{
+    list-style:none;
+}
+.list2 ul li{
+    padding: 20px 0px;
+}
+.list3 ul{
+    list-style:none;
+}
+.list3 ul li{
+    padding: 20px 0px;
+}
+@media(max-width:1280px)
+{
+  footer {
+    height: 800px;
+    background-color: #458ff6;
+    width: 100%;
+  }
+  .container8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+     width: 100%;
+     padding: 50px;
+    
+  
+  }
+
+  .container9{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 40px;
+    
+}
+.list1 ul li{
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.list2 ul li{
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.list3 ul li{
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.container9 .end p{
+  padding: 10px 0px;
+  font-size: 20px;
+  
+  
+}
+
+}
+@media(max-width:500px)
+{
+  footer {
+    height: 800px;
+    background-color: #458ff6;
+    width: 100%;
+  }
+  .container8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+     width: 100%;
+     padding: 50px;
+    
+  
+  }
+
+  .container9{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 0px 60px;
+    margin: 0 20px;
+    
+}
+.list1 ul li{
+  padding: 20px 0px;
+  font-size: 25px;
+}
+.list2 ul li{
+  padding: 20px 0px;
+  font-size: 25px;
+}
+.list3 ul li{
+  padding: 20px 0px;
+  font-size: 25px;
+}
+.container9 .end p{
+  padding: 10px 0px;
+  font-size: 30px;
+  
+  
+}
+}
